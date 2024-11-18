@@ -4,6 +4,12 @@
 .tr{
     color:#006A6A;
 }
+.trs{
+    color:#006A6A;
+}
+.mub{
+    fill:white;
+}
 .white{
     background-color: white;
 }
@@ -85,7 +91,9 @@ body {
     .services-box {
       flex: 0 1 calc(33.33% - 20px); /* Three items per line */
     }
-  
+  }
+  .ff{
+    background-color: #006A6A;
   }
   #imggg{
     border: 2px solid black;
@@ -101,8 +109,16 @@ body {
   
   @media (max-width: 480px) {
     .services-box {
-        flex: 0 1 calc(50% - 20px); /* One item per line */
+        flex: 0 1 calc(50% - 20px); 
+        /* One item per line */
     }
+    .mub{
+        fill:#006A6A;
+    }
+    .trs{
+        color:white;
+    }
+
   }
   
 .contact-info h2 {

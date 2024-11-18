@@ -95,7 +95,7 @@ body {
   
   @media (max-width: 480px) {
     .services-box {
-      flex: 0 1 100%; /* One item per line */
+     flex: 0 1 calc(50% - 20px); /* One item per line */
     }
   }
   
